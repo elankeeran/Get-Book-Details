@@ -14,7 +14,7 @@ Documentation, sample code, articles, tutorials, and more can be found in the AW
 
 For help and support, please visit the AWS Support Center: http://developer.amazonwebservices.com/connect/support.jspa
 
-After signup go to "Security Credentials" in "Account" section and there you can create access key etc.
+After signup go to "Security Credentials" in "Account" section and replace the "xxxxxxxxxxx" with your created access key
 // public key
   var $publicKey = "xxxxxxxxxxxxxx";
 	// private key
