@@ -1,1 +1,17 @@
 This code help to get detail information about Books with cover page. The information are retry from Amazon API.
+
+Download the app from Github
+
+1. unzip the app
+2. run it inside your apache "htdocs" folder
+
+Please do use attached public key & private key. please sign up a key from amazon api from this url http://aws.amazon.com/fws/
+
+After signup go to "Security Credentials" in "Account" section and there you can create access key etc.
+// public key
+  var $publicKey = "xxxxxxxxxxxxxx";
+	// private key
+	var $privateKey = "xxxxxxxxxxxxxx";
+	// affiliate tag
+
+Email me if your facing any problem ekeeran@gmail.com
