@@ -5,7 +5,14 @@ Download the app from Github
 1. unzip the app
 2. run it inside your apache "htdocs" folder
 
-Please do use attached public key & private key. please sign up a key from amazon api from this url http://aws.amazon.com/fws/
+Amazon Fulfillment Web Service (Amazon FWS) http://aws.amazon.com/fws/
+
+You need Access Identifiers to make valid web service requests.  Please visit the Access Identifiers section of your account to obtain your identifier and to learn more:
+http://aws-portal.amazon.com/gp/aws/developer/account/index.html?action=access-key
+
+Documentation, sample code, articles, tutorials, and more can be found in the AWS Resource Center: http://aws.amazon.com/resources/.
+
+For help and support, please visit the AWS Support Center: http://developer.amazonwebservices.com/connect/support.jspa
 
 After signup go to "Security Credentials" in "Account" section and there you can create access key etc.
 // public key
