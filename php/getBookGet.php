@@ -36,15 +36,8 @@ if($response->Items->TotalResults > 0)
 	$pDate=$response->Items->Item->ItemAttributes->PublicationDate;
   $alt=$title ."  by ". $Author;
 $objEditorialReviews=$response->Items->Item->EditorialReviews;
-}
-else
-{
-   // no response, show some other image
-  $imgesrc='no-image.png';
-  $alt='no book image';
-}
 ?>
-<!-- show the image -->
+
 
 
 Title : <?php echo $title; ?>
@@ -63,7 +56,11 @@ Language: <?php echo $languages; ?>
 <br/>
 Number of Page: <?php echo $numberOfPages; ?>
 <br/>
+<?php if($imagesrc!=""){ ?>
 <img src="<?php echo $imagesrc;?>"  title="<?php echo $alt; ?>" />
+<?php }else{ ?>
+	<img src="images/no_book_cover1.jpg"  title="<?php echo $alt; ?>" />
+<?php } ?>
 <br>
 
 <?php
@@ -76,5 +73,12 @@ foreach($objEditorialReviews as $EditorialReview)
  echo($EditorialReview->EditorialReview->Content);
 }
 
-
+}
+else
+{
+?>
+  <h3>Book not available</h3>
+  <p>Please try with different books</p>
+<?php
+	}
 ?>
