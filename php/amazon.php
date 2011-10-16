@@ -2,9 +2,11 @@
 class Amazon
 {
 
-// Please do use attached public key & private key. 
-// please sign up a key from amazon api 
-// from this url http://aws.amazon.com/fws/
+// You need Access Identifiers to make valid web service requests.
+// Please visit the Access Identifiers section of your account
+// to obtain your identifier and to learn more:
+// http://aws-portal.amazon.com/gp/aws/developer/account/index.html?action=access-key
+
 
 	// public key
 	var $publicKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
