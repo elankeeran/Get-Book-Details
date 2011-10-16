@@ -2,10 +2,14 @@
 class Amazon
 {
 
+// Please do use attached public key & private key. 
+// please sign up a key from amazon api 
+// from this url http://aws.amazon.com/fws/
+
 	// public key
-	var $publicKey = "AKIAIBW4GTKHG35LBYOA";
+	var $publicKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 	// private key
-	var $privateKey = "qmrb9u20ZaETMUWeD955Y5x3LDno1LzQqm2r7Uav";
+	var $privateKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 	// affiliate tag
 	var $affiliateTag='affiliateTag';
 
