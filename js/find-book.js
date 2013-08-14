@@ -6,7 +6,7 @@ var isbn;
 	// assign isbn value to var isbn
     isbn=$("#isbn").val();
 	// send isbn value as POST variable "isbn" and load result in bookinfo div
-    $("#bookInfo").load("../php/getBookGet.php",{isbn:isbn},function(){
+    $("#bookInfo").load("php/getBookGet.php",{isbn:isbn},function(){
 	    // fade in bookinfo div
 	 	$("#bookInfo").fadeIn("slow");
 	});
