@@ -20,5 +20,8 @@ After signup go to "Security Credentials" in "Account" section and replace the "
 	// private key
 	var $privateKey = "xxxxxxxxxxxxxx";
 	// affiliate tag
+	
+	 Please use the AccessKey Id obtained after registering at https://affiliate-program.amazon.com/gp/flex/advertising/api/sign-in.html.
+	 
 
 Email me if your facing any problem ekeeran@gmail.com
